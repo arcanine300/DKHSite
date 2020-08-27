@@ -1,0 +1,15 @@
+{
+  "name": "website_dkh",
+  "version": "1.0.0",
+  "description": "Personal website /  project showcase",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Khan Hafner",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
