@@ -1,0 +1,27 @@
+.mat-toolbar {
+    background-color: rgba(85,91,181,0.5);
+    color: white;
+  }
+
+.mat-toolbar img {
+  margin: 0 8px;
+}
+
+.mat-toolbar mat-toolbar-row {
+  margin-top: -8px;
+  margin-bottom: -2px;
+}
+
+.first {
+  margin: 0 8px;
+}
+
+.mat-toolbar a {
+  color: white;
+  margin: 0 8px;
+  text-decoration: none
+}
+
+.fill-remaining-space {
+  flex: 1 1 auto;
+}
