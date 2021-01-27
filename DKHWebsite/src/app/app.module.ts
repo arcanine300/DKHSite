@@ -9,7 +9,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatToolbarModule} from '@angular/material/toolbar'; 
 import {MatCardModule} from '@angular/material/card';
 import {MatIconModule} from '@angular/material/icon'; 
-import { SocketioService } from './socketio.service';
 
 @NgModule({
   declarations: [
@@ -25,7 +24,7 @@ import { SocketioService } from './socketio.service';
     MatCardModule,
     MatIconModule
   ],
-  providers: [SocketioService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
